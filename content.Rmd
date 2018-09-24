@@ -1,0 +1,52 @@
+---
+title: "Website"
+author: "Anna Willoughby"
+date: "September 14, 2018"
+output: html_document
+---
+
+# Home Page 
+
+Anna Rose Willoughby 
+
+I study *disease ecology*, interwoven with *conservation biology*, *data science*, and *evolutionary anthropology*. 
+
+## disease ecology 
+At [EcoHealth Alliance](https://www.ecohealthalliance.org/) I worked with an interdisciplinary team on the USAID-funded [PREDICT](https://www2.vetmed.ucdavis.edu/ohi/predict/) project to enable global surveillance of emerging viruses. I helped build a [mammal-virus database](www.github.com/ecohealthalliance/hp3) and explored [viral sharing between bat species](http://www.mdpi.com/1424-2818/9/3/35/htm).
+
+
+## conservation biology 
+My love for scientific research began on several courses taught by the [Organization for Tropical Studies](https://tropicalstudies.org/). These intensive field courses immersed me the scientific method, and made me appreciate the conservation land-use planning.
+
+## data science 
+I use data from literature and the field to answer questions about pathogen presence and transmission. In particular, I am interested in identifying gaps in the scientfic literature to prioritize future studies. This requires a comparative approach, that relies on open data and [compiled databases](www.github.com/ecohealthalliance/awesome-parasite). I work primarily in R and on [github](https://github.com/arw36).  
+
+## evolutionary anthropology
+During my undergraduate studies, my studies centered on primate social behavior and evolution. I completed a thesis on the interplay of reproduction, activity, and infection burden in wild chacma baboons. With a vertical team of researchers funded by [Bass Connections](https://bassconnections.duke.edu/project-teams/shining-evolutionary-light-global-health-challenges-2014-2015), I studied the transition of infectious to chronic diseases in a geographically and genetically distinct population in Madagascar.
+
+## Map
+```{map of places, echo = FALSE}
+places <- read.csv(file = "website_locations.csv")
+library(maps)
+library(rbokeh)
+plot <- suppressWarnings(figure(width = 800, height = 450, padding_factor = 0) %>%
+  ly_map("world", col = "gray") %>%
+  ly_points(Longitude, Latitude, data = places, size = 5,
+            color = Type,
+            hover = c(Name, Date)))
+
+plot
+
+```
+## CV 
+
+## Contact
+
+Anna Willoughby
+140 E. Green St. 
+University of Georgia 
+Athens, GA 30602-2202
+email: anna.willoughby @ uga.edu
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
