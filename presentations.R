@@ -12,11 +12,11 @@ d <- tibble(
     "Viral Sharing in the Bat Metacommunity"
   ),
   venue = c(
-    "<a href='https://www.cdc.gov/iceid/docs/ICEID-2018-program-book-P.pdf'> ICEID 2018 </a>", 
-    "<a href='https://www.netsci2018.com/'> NetSci 2018 </a>",
+    "ICEID 2018", 
+    "NetSci 2018",
     "IAEH 2017",
-    "<a href='https://www.nasbr.org'> NASBR 2017 </a>",
-    "<a href='https://www.amnh.org/our-research/center-for-biodiversity-conservation/convening-and-connecting/student-conference-on-conservation-science-new-york-sccs-ny/sccs-ny-2017'> AMNH SCCB 2017 </a>"
+    "NASBR 2017",
+    "AMNH SCCB 2017"
   ),
   type = c(
     "poster", 

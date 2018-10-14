@@ -25,7 +25,8 @@ I use data from literature and the field to answer questions about pathogen pres
 During my undergraduate studies, my studies centered on primate social behavior and evolution. I completed a thesis on the interplay of reproduction, activity, and infection burden in wild chacma baboons. With a vertical team of researchers funded by [Bass Connections](https://bassconnections.duke.edu/project-teams/shining-evolutionary-light-global-health-challenges-2014-2015), I studied the transition of infectious to chronic diseases in a geographically and genetically distinct population in Madagascar.
 
 ## Map
-```{map of places, echo = FALSE}
+map of places, echo = FALSE
+```{r}
 places <- read.csv(file = "website_locations.csv")
 library(maps)
 library(rbokeh)
