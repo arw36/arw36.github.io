@@ -13,7 +13,7 @@ html {
   position: absolute;
 
   padding: 16px;
-  color: white;
+  color: #b2e2e2;
   font-family: 'Merriweather', serif;
   background-color: rgba(18,28,17, 0.5);
 
@@ -38,14 +38,14 @@ a:hover {
 
 
 .subject-diseco a {
-  color: #e52f22;
+  color: #f6eff7;
 }
 .subject-conbio a {
-  color: #49b52f;
+  color: #bdc9e1;
 }
 .subject-datsci a {
-  color: #2a99c9;
+  color: #67a9cf;
 }
 .subject-evoant a {
-  color: #b932db;
+  color: #02818a;
 }
