@@ -16,13 +16,13 @@ At [EcoHealth Alliance](https://www.ecohealthalliance.org/) I worked with an int
 
 
 ## conservation biology 
-My love for scientific research began on several courses taught by the [Organization for Tropical Studies](https://tropicalstudies.org/). These intensive field courses immersed me the scientific method, and made me appreciate the conservation land-use planning.
+My love for scientific research began on several courses taught by the [Organization for Tropical Studies](https://tropicalstudies.org/). These intensive field courses immersed me in the scientific method, and made me appreciate conservation and land-use planning.
 
 ## data science 
 I use data from literature and the field to answer questions about pathogen presence and transmission. In particular, I am interested in identifying gaps in the scientfic literature to prioritize future studies. This requires a comparative approach, that relies on open data and [compiled databases](www.github.com/ecohealthalliance/awesome-parasite). I work primarily in R and on [github](https://github.com/arw36).  
 
 ## evolutionary anthropology
-During my undergraduate studies, my studies centered on primate social behavior and evolution. I completed a thesis on the interplay of reproduction, activity, and infection burden in wild chacma baboons. With a vertical team of researchers funded by [Bass Connections](https://bassconnections.duke.edu/project-teams/shining-evolutionary-light-global-health-challenges-2014-2015), I studied the transition of infectious to chronic diseases in a geographically and genetically distinct population in Madagascar.
+During my undergraduate studies, my research centered on primate social behavior and evolution. I completed a thesis on the interplay of reproduction, activity, and infection burden in wild chacma baboons. With a vertical team of researchers funded by [Bass Connections](https://bassconnections.duke.edu/project-teams/shining-evolutionary-light-global-health-challenges-2014-2015), I studied the transition of infectious to chronic diseases in a geographically and genetically distinct population in Madagascar.
 
 ## Map
 map of places, echo = FALSE
@@ -36,7 +36,7 @@ plot <- suppressWarnings(figure(width = 800, height = 450, padding_factor = 0) %
             color = Type,
             hover = c(Name, Date)))
 
-plot
+htmlwidgets::saveWidget(plot, "map.html")
 
 ```
 ## CV 
